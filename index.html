@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAY! It's BOGO</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="card">
+      <h2 class="title">YAY! It's BOGO</h2>
+
+      <form id="offer-form">
+        <label class="offer-box" data-units="1">
+          <div class="content">
+            <input type="radio" name="unit" value="1" data-price="10" checked />
+            <div class="left">
+              <div>
+                <strong>1 Unit</strong> <span class="badge red">10% Off</span>
+              </div>
+              <div class="sub">Standard Price</div>
+            </div>
+            <div class="right">
+              <div class="price">$10.00 USD</div>
+              <div class="strike">$24.00 USD</div>
+            </div>
+          </div>
+          <div class="options">
+            <div class="row header">
+              <div class="spacer"></div>
+              <div class="label">Size</div>
+              <div class="label">Colour</div>
+            </div>
+            <div class="row">
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>Blue</option>
+                <option>Red</option>
+              </select>
+            </div>
+            <div class="row">
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>Blue</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+        </label>
+        <label class="offer-box" data-units="2">
+          <div class="ribbon">MOST POPULAR</div>
+          <div class="content">
+            <input type="radio" name="unit" value="2" data-price="18" />
+            <div class="left">
+              <div>
+                <strong>2 Unit</strong> <span class="badge pink">20% Off</span>
+              </div>
+            </div>
+            <div class="right">
+              <div class="price">$18.00 USD</div>
+              <div class="strike">$24.00 USD</div>
+            </div>
+          </div>
+          <div class="options">
+            <div class="row header">
+              <div class="spacer"></div>
+              <div class="label">Size</div>
+              <div class="label">Colour</div>
+            </div>
+            <div class="row">
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>Blue</option>
+                <option>Red</option>
+              </select>
+            </div>
+            <div class="row">
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>Blue</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+        </label>
+        <label class="offer-box" data-units="3">
+          <div class="content">
+            <input type="radio" name="unit" value="3" data-price="24" />
+            <div class="left">
+              <div>
+                <strong>3 Unit</strong>
+                <span class="badge orange">30% Off</span>
+              </div>
+            </div>
+            <div class="right">
+              <div class="price">$24.00 USD</div>
+              <div class="strike">$24.00 USD</div>
+            </div>
+          </div>
+          <div class="options">
+            <div class="row header">
+              <div class="spacer"></div>
+              <div class="label">Size</div>
+              <div class="label">Colour</div>
+            </div>
+            <div class="row">
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>Blue</option>
+                <option>Red</option>
+              </select>
+            </div>
+            <div class="row">
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>Blue</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+        </label>
+        <div class="footer">
+          <span class="delivery">Free Delivery</span>
+          <span class="total" id="total-price">Total: $10.00 USD</span>
+        </div>
+
+        <button type="submit" class="cart-btn">+ Add to Cart</button>
+      </form>
+
+      <p class="powered">@ Powered by Pumper</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

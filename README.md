@@ -13,7 +13,7 @@ This is a simple front-end project built using **HTML, CSS, and Vanilla JavaScri
 - Fully responsive and **no external libraries used**
 
 ---
-
+![Bogo Image](image.png)
 ## 🛠️ Technologies Used
 
 - HTML5
@@ -24,7 +24,7 @@ This is a simple front-end project built using **HTML, CSS, and Vanilla JavaScri
 
 ## 📂 Project Structure
 
-bogo-offer/
+IT-S-BOGO/
 ├── index.html # Main HTML page
 ├── style.css # Custom styles
 ├── script.js # JavaScript interactivity
