@@ -15,7 +15,7 @@ function updateDisplay() {
     }
   });
 }
-
+ 
 offerBoxes.forEach((box) => {
   const input = box.querySelector('input[type="radio"]');
   input.addEventListener("change", updateDisplay);
