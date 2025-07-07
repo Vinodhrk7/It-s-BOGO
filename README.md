@@ -25,7 +25,7 @@ This is a simple front-end project built using **HTML, CSS, and Vanilla JavaScri
 
 ## 📂 Project Structure
 
-bogo-offer/
+IT-S-BOGO/
 ├── index.html # Main HTML page
 ├── style.css # Custom styles
 ├── script.js # JavaScript interactivity
