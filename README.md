@@ -13,6 +13,7 @@ This is a simple front-end project built using **HTML, CSS, and Vanilla JavaScri
 - Fully responsive and **no external libraries used**
 
 ---
+![image](https://github.com/user-attachments/assets/78227ffa-768d-4671-a297-1b4273c17c24)
 
 ## 🛠️ Technologies Used
 
