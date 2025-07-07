@@ -14,7 +14,6 @@ This is a simple front-end project built using **HTML, CSS, and Vanilla JavaScri
 
 ---
 ![Bogo Image](image.png)
-bogo-interactive-units-vinodh.netlify.app
 ## 🛠️ Technologies Used
 
 - HTML5
